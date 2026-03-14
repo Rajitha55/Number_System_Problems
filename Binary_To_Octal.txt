@@ -1,0 +1,15 @@
+//Program to Convert a number from Binary to Octal
+//stoi(string, position_pointer, base) --> Converts binary number to Decimal
+//oct → prints number in octal format
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    string s;
+    cout<<"Enter binary number:";
+    cin>>s;
+    cout<<oct<<stoi(s,0,2);
+    return 0;
+}
