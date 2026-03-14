@@ -1,0 +1,19 @@
+//Program to Convert a number from Decimal to Binary
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n;
+    string bin;
+    cout<<"Enter Decimal number:";
+    cin>>n;
+    while(n>0)
+    {
+        bin=char((n%2)+'0')+bin;
+        n/=2;
+    }
+    cout<<bin;
+    return 0;
+}
