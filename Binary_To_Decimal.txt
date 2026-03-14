@@ -1,0 +1,14 @@
+//Program to Convert a number from Binary to Decimal
+//stoi(string, position_pointer, base)
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    string s;
+    cout<<"Enter binary number:";
+    cin>>s;
+    cout<<stoi(s,0,2);
+    return 0;
+}
