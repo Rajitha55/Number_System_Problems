@@ -1,0 +1,15 @@
+//Program to convert Decimal into Octal
+//Use oct to print octal form of a decimal number
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"Enter Decimal number:"<<endl;
+    cin>>n;
+    cout<<"Octal form: ";
+    cout<<oct<<n;
+    return 0;
+}
